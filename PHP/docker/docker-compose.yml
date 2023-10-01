@@ -6,6 +6,9 @@ services:
     build: .
     # カレントディレクトリをコンテナへマウント
     volumes:
-      - "../src:/usr/src"
+      - ../php.ini:/usr/local/etc/php/php.ini
+      - ../html:/var/www/html
     # プロセスを継続させてコンテナの正常終了を防ぐ
     stdin_open: true
+    ports:
+      - "8080:80"
