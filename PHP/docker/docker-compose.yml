@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  php-atcoder:
+    # カレントディレクトリでイメージを構築
+    build: .
+    # カレントディレクトリをコンテナへマウント
+    volumes:
+      - "../src:/usr/src"
+    # プロセスを継続させてコンテナの正常終了を防ぐ
+    stdin_open: true
