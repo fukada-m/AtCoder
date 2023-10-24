@@ -8,5 +8,3 @@ AtCoderの問題を解いたコードを置いています。
 - PHP
     - PHP UnitとXdebugを使ったテスト自動化とデバッグができる環境
 
-
-test
