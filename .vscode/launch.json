@@ -6,7 +6,7 @@
       "request": "launch",
       "port": 9000,
       "pathMappings": {
-        "/var/www/html": "/Users/mitsuharu/Desktop/AtCoder/PHP/html"
+        "/var/www/html": "/Users/mitsuharu/Desktop/AtCoder/ddev-php"
       }
     }
   ]

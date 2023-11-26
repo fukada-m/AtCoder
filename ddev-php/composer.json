@@ -1,0 +1,14 @@
+{
+    "require": {
+        "twig/twig": "^3.0",
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sample\\" : "web/sample/",
+            "Web\\BuildIn\\" : "web/build-in/",
+            "Web\\AC20231118\\" : "web/AC20231118/",
+            "Web\\AC20231125\\" : "web/AC20231125/"
+        }
+    }
+}
